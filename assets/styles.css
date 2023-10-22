@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*BARRA COM LOGO*/
+
+.header-base {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.068);
+}
+
+.img-logo {
+  position: relative;
+  width: 385px;
+  height: 126px;
+}
+
+/*BANNER*/
+
+.banner-base {
+  display: flex;
+  justify-content: center;
+}
+.img-banner {
+  position: relative;
+  width: 1646px;
+  height: 686px;
+}
+
+/*CONTEUDO NAV*/
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nav-content-base {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-content {
+  position: absolute;
+  background-color: white;
+  top: 96%;
+  padding: 10px;
+  display: flex;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px rgb(0, 178, 0) solid;
+}
+
+li {
+  margin: 10px;
+  transition: 1s;
+}
+
+li:hover{
+    cursor: pointer;
+    color: rgb(0, 178, 0);
+
+}
+
+/*SECTION SOBRE*/
+
+.sobre-base {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.sobre {
+  display: flex;
+}
+
+.text-sobre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 45px;
+  width: 400px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+h5 {
+  border: 1px solid blue;
+  text-align: center;
+  border-radius: 2px;
+  margin: 30px;
+  color: blue;
+  transition: 1s;
+  width: 60%;
+}
+
+h5:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+/*SECTION PRODUTOS*/
+
+hr {
+  margin: 100px;
+}
+
+.prdutos-base {
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.prdutos-base h2 {
+}
+
+.produtos {
+  display: flex;
+  justify-content: center;
+}
+
+.img1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.img1 img {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.img2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.img2 img {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.botao-base {
+  display: flex;
+  justify-content: center;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 15px;
+  padding: 10px;
+  width: 20%;
+}
+
+/*FOOTER*/
+
+.infos-base {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(45, 45, 255);
+  padding: 50px;
+}
+
+.infos{
+    display: flex;
+    justify-content: space-around;
+    border: solid;
+    width: 100%;
+}
+
+.contatos{
+    border: solid;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contatos h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.contatos div{
+    border: solid;
+    display: flex;
+}
+
+.maps{
+    border:solid;
+}
+
+li{
+    list-style: none;
+}
